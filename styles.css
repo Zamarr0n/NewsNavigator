@@ -50,6 +50,7 @@ p,a{
 .searcher_div{
     margin-top: auto;
     margin-bottom: auto;
+    display: flex;
 }
 .section_news{
     padding-bottom: 2.5rem;
@@ -143,7 +144,31 @@ img{
 
 
 
-
+@media (max-width: 800) {
+    #search{
+        background-color: rgb(5, 58, 163);
+        padding: 5px 10px;
+        border: none;
+        font-size: auto;
+        margin-left: .5rem;
+        color: white;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .project_title{
+        padding-right: 0rem;
+    }
+    .section_nav{
+        background-color:#b3b8c2;
+        margin-bottom: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+}
 
 
 
